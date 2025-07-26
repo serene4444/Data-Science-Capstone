@@ -46,6 +46,6 @@ The goal: **predict whether SpaceX's Falcon 9 first stage will land successfully
   - **Support Vector Machine (SVM)**
   - **Decision Tree Classifier**
 - Performed **hyperparameter tuning** via `GridSearchCV`  
-- Evaluated models using accuracy, precision/recall, F1‑score; selected best performer for prediction tasks :contentReference[oaicite:5]{index=5}
+- Evaluated models using accuracy, precision/recall, F1‑score; selected best performer for prediction tasks
 
 ---

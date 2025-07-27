@@ -20,6 +20,7 @@ app.layout = html.Div(children=[html.H1('SpaceX Launch Records Dashboard',
                                                'font-size': 40}),
                                 # TASK 1: Add a dropdown list to enable Launch Site selection
                                 # The default select value is for ALL sites
+<<<<<<< HEAD
                                 dcc.Dropdown(id='site-dropdown',
                                              options=[
                                                  {'label': 'ALL sites', 'value': 'ALL'},
@@ -29,6 +30,9 @@ app.layout = html.Div(children=[html.H1('SpaceX Launch Records Dashboard',
                                              placeholders="place holder here",
                                              searchable=True
                                              ),
+=======
+                                # dcc.Dropdown(id='site-dropdown',...)
+>>>>>>> 76a2a7e0edee525731528fb3f5e62ef4b4be923a
                                 html.Br(),
 
                                 # TASK 2: Add a pie chart to show the total successful launches count for all sites
